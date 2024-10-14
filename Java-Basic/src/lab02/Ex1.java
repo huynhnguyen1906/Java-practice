@@ -1,17 +1,13 @@
 package lab02;
 
-import java.util.Scanner;
-
 public class Ex1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         // enter number a
         System.out.println("enter number a:");
-        int a = scanner.nextInt();
+        int a = Integer.parseInt(System.console().readLine());
         // enter number b
         System.out.println("enter number b:");
-        int b = scanner.nextInt();
-        scanner.close();
+        int b = Integer.parseInt(System.console().readLine());
         // calculate x
         if (a > 0) {
             double x = (double) -b / a;
