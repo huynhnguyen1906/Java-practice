@@ -1,6 +1,8 @@
+package lab02;
+
 import java.util.Scanner;
 
-public class Lab02 {
+public class Ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // enter number a

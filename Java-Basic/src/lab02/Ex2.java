@@ -1,4 +1,6 @@
-public class Lab02_2 {
+package lab02;
+
+public class Ex2 {
     public static void main(String[] args) {
         // enter number a
         System.out.println("enter number a:");
