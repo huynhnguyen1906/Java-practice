@@ -1,16 +1,23 @@
 package lab02;
 
+import java.util.Scanner;
+
 public class Ex2 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         // enter number a
         System.out.println("enter number a:");
-        int a = Integer.parseInt(System.console().readLine());
+        int a = Integer.parseInt(scanner.nextLine());
+
         // enter number b
         System.out.println("enter number b:");
-        int b = Integer.parseInt(System.console().readLine());
-        // enter number c
-        System.out.println("enter number c:");
-        int c = Integer.parseInt(System.console().readLine());
+        int b = Integer.parseInt(scanner.nextLine());
+
+        // enter bumber c
+        System.out.println("enter bumber c:");
+        int c = Integer.parseInt(scanner.nextLine());
+
         // calculate x
         if (a != 0) {
             double delta = b * b - 4 * a * c;
@@ -34,5 +41,7 @@ public class Ex2 {
                 System.out.println("no solution");
             }
         }
+
+        scanner.close();
     }
 }
