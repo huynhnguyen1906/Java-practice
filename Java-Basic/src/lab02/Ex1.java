@@ -7,7 +7,6 @@ public class Ex1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
-            // enter number a
             System.out.println("enter number a:");
             if (!scanner.hasNextInt()) {
                 System.out.println("Please enter a valid integer for a");
